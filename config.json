@@ -1,0 +1,47 @@
+    "link": "",
+    "text": "Yuan"
+  },
+  "text": {
+    "more": "This is an electricity trading network.\nEach point is a client, size defined by total cash executed in history.Each edge is a trading counterparty with color defined by volume of trading. \nOne remark is that the two community are found by modularity algo, mainly divised by frequent trader or not.\nThe other remark is that almost everyone trades with everyone. Trading market does not select counterparty.",
+    "intro": "This is an electricity trading network.\nEach point is a client, size defined by total cash executed in history.Each edge is a trading counterparty with color defined by volume of trading. \nOne remark is that the two community are found by modularity algo, mainly divised by frequent trader or not.\nThe other remark is that almost everyone trades with everyone. Trading market does not select counterparty.",
+    "title": "Electricity trade network"
+  },
+  "legend": {
+    "edgeLabel": "trade volume",
+    "colorLabel": "frequent trader/not",
+    "nodeLabel": "client code"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Id",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": true,
+    "imageAttribute": "volume"
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
